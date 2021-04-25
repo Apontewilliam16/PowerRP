@@ -14,6 +14,21 @@ a{
 	background: #7289DA;
 	border-color: #7289DA;
 }
+.style-about{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5rem;
+  text-align: left;
+}
+.site-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+.sub-head{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  
+}
 
 .jumbotron {
   background-image: url("../img/alexfreda109.gif");
