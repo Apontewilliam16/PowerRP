@@ -1,6 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
 a{
   font-family: 'Bebas Neue', cursive;
   font-size: 1.5rem;
+  text-align: end;
 
 }
 .style{
@@ -209,4 +213,17 @@ p{
     margin-right:0;
     font-weight:600
   }
+}
+
+/*back to top*/
+.scrollup {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: none;
+  text-indent: -9999px;
+  background: url('icon_top.png') no-repeat;
+  background-color: #000;
 }

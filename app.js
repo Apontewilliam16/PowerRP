@@ -32,8 +32,14 @@ app.get("/contact", function (req, res) {
   });
 });
 
-app.get("/rules", function(req, res){
-  res.render("rules", {
+app.get("/howtoplay", function(req, res){
+  res.render("howtoplay", {
+
+  });
+});
+
+app.get("/keybinds", function(req, res){
+  res.render("keybinds", {
 
   });
 });
